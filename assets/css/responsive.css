@@ -1,0 +1,52 @@
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    
+ 
+.section-title::before {
+
+    position: absolute;
+    content: "";
+    width: 119px;
+    height: 2px;
+    background-color: #635CDB;
+    left: 50%;
+    transform: translateX(-50%) rotate(90deg);
+    top: 67px;
+
+}
+    
+.about-content {
+  padding-bottom: 50px;
+}
+.skill-accordion {
+  padding-bottom: 31px;
+}
+.skill-title h4 {
+  font-size: 22px;
+}
+.progres h4 {
+  font-size: 15px;
+}
+    
+    .testimonials-area .section-title::before {
+
+    position: absolute;
+    content: "";
+    width: 93px;
+    height: 2px;
+    background-color: #635CDB;
+    left: 50%;
+    transform: translateX(-50%) rotate(90deg);
+    top: 51px;
+
+}
+ 
+}
+
+@media only screen and (max-width: 991px){
+    .section-title::after{
+        display: none;
+    }
+    .section-title::before{
+        display: none;
+    }
+}
